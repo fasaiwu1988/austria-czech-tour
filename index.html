@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
-
+<html lang="zh-Hant">
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>璀璨奧捷12天</title>
+<title>航典國際旅行社｜奧地利捷克經典12天</title>
 
 <style>
 
-body{
+*{
 margin:0;
-font-family:Arial,sans-serif;
+padding:0;
+box-sizing:border-box;
+font-family:"Microsoft JhengHei",sans-serif;
+}
+
+body{
+background:#f8f8f8;
+color:#333;
+line-height:1.8;
 }
 
 .hero{
 height:100vh;
-background-image:url("1780100698908.jpg");
-background-size:cover;
-background-position:center;
+background:url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2000') center center/cover;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -28,60 +30,190 @@ text-align:center;
 color:white;
 }
 
-.overlay{
+.hero-content{
 background:rgba(0,0,0,0.45);
-padding:30px;
+padding:40px;
 border-radius:20px;
 }
 
-h1{
-font-size:42px;
-margin:0;
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
 }
 
-.price{
-font-size:36px;
-color:gold;
-font-weight:bold;
-margin-top:20px;
+.hero p{
+font-size:24px;
+margin-bottom:30px;
 }
 
-.button{
+.btn{
 display:inline-block;
-background:#0b3d91;
+background:#c49b63;
 color:white;
-padding:15px 25px;
-border-radius:10px;
+padding:15px 30px;
 text-decoration:none;
-margin-top:20px;
+border-radius:50px;
+font-size:18px;
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:80px 20px;
+}
+
+h2{
+text-align:center;
+font-size:38px;
+margin-bottom:40px;
+}
+
+.intro{
+text-align:center;
+font-size:20px;
+max-width:900px;
+margin:auto;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+.timeline{
+background:white;
+padding:40px;
+border-radius:20px;
+}
+
+.timeline div{
+padding:15px 0;
+border-bottom:1px solid #ddd;
+}
+
+.contact{
+background:#1f2937;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.contact h2{
+color:white;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<section class="hero">
-
-<div class="overlay">
-
-<h1>Brilliant 璀璨奧捷12天</h1>
-
-<p>世界遺產圓舞曲・五晚五星飯店</p>
-
-<div class="price">
-NT$138,000 起
+<div class="hero">
+<div class="hero-content">
+<h1>奧地利．捷克 經典12天</h1>
+<p>湖區仙境 × 世界遺產 × 音樂之都 × 童話古城</p>
+<a href="#contact" class="btn">立即洽詢</a>
+</div>
 </div>
 
-<a class="button" href="#">
-立即諮詢
-</a>
+<section>
+<h2>中歐最美旅程</h2>
+
+<p class="intro">
+從維也納的皇室風華、薩爾斯堡的音樂藝術，
+到哈修塔特的湖光山色與布拉格的浪漫古城，
+一次收藏中歐最經典的景色與文化。
+</p>
+</section>
+
+<section>
+
+<h2>精選景點</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1504851149312-7a075b496cc7?q=80&w=1200">
+<h3>哈修塔特 Hallstatt</h3>
+<p>被譽為世界最美湖畔小鎮。</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1541849546-216549ae216d?q=80&w=1200">
+<h3>布拉格 Prague</h3>
+<p>百塔之城與查理大橋。</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516550893923-42d28e5677af?q=80&w=1200">
+<h3>維也納 Vienna</h3>
+<p>音樂之都與帝國文化中心。</p>
+</div>
 
 </div>
 
 </section>
 
-</body>
+<section>
 
+<h2>12天行程概要</h2>
+
+<div class="timeline">
+
+<div>Day 1｜台灣 ✈ 維也納</div>
+<div>Day 2｜維也納市區觀光</div>
+<div>Day 3｜瓦豪河谷・梅爾克修道院</div>
+<div>Day 4｜薩爾斯堡</div>
+<div>Day 5｜哈修塔特湖區</div>
+<div>Day 6｜聖沃夫岡</div>
+<div>Day 7｜庫倫洛夫</div>
+<div>Day 8｜布拉格</div>
+<div>Day 9｜布拉格城堡區</div>
+<div>Day 10｜自由探索布拉格</div>
+<div>Day 11｜返程</div>
+<div>Day 12｜抵達台灣</div>
+
+</div>
+
+</section>
+
+<div class="contact" id="contact">
+
+<h2>航典國際旅行社</h2>
+
+<p>奧地利・捷克 經典12天</p>
+
+<br>
+
+<p>LINE：請加入官方帳號</p>
+
+<p>TEL：07-XXXXXXX</p>
+
+<p>Email：service@example.com</p>
+
+</div>
+
+</body>
 </html>
