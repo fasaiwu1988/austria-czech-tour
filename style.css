@@ -112,9 +112,11 @@ justify-content:center;
 
 align-items:center;
 
-gap:25px;
+flex-wrap:wrap;
 
-max-width:1500px;
+gap:30px;
+
+max-width:1300px;
 
 margin:auto;
 
@@ -122,9 +124,9 @@ margin:auto;
 
 .menu-card{
 
-width:220px;
+width:280px;
 
-height:280px;
+height:340px;
 
 flex-shrink:0;
 
