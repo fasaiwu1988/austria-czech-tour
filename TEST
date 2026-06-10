@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Daily Test</title>
+
+<style>
+
+body{
+font-family:"Microsoft JhengHei",sans-serif;
+background:#f6f6f6;
+padding:50px;
+}
+
+.day-section{
+max-width:1200px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:80px;
+}
+
+.day-item{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.day-item.reverse{
+direction:rtl;
+}
+
+.day-item.reverse .day-text{
+direction:ltr;
+}
+
+.day-item img{
+width:100%;
+border-radius:15px;
+}
+
+.day-text h3{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.day-text p{
+font-size:18px;
+line-height:1.8;
+}
+
+@media(max-width:768px){
+
+.day-item,
+.day-item.reverse{
+display:block;
+}
+
+.day-item img{
+margin-bottom:20px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<h1 style="text-align:center;margin-bottom:60px;">
+每日行程測試
+</h1>
+
+<div class="day-section">
+
+<div class="day-item">
+
+<img src="Daily/day01-vienna-window.png">
+
+<div class="day-text">
+
+<h3>Day 1｜啟程飛往維也納</h3>
+
+<p>
+搭乘豪華客機前往奧地利首都，
+展開璀璨12天的中歐旅程。
+</p>
+
+</div>
+
+</div>
+
+<div class="day-item reverse">
+
+<img src="Daily/day02-wachau.jpg">
+
+<div class="day-text">
+
+<h3>Day 2｜瓦豪河谷</h3>
+
+<p>
+沿著多瑙河航行，
+欣賞世界遺產瓦豪河谷與梅爾克修道院。
+</p>
+
+</div>
+
+</div>
+
+<div class="day-item">
+
+<img src="Daily/day03-hallstatt.jpg">
+
+<div class="day-text">
+
+<h3>Day 3｜哈修塔特</h3>
+
+<p>
+漫步世界最美湖畔小鎮，
+感受阿爾卑斯湖區的迷人風景。
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
